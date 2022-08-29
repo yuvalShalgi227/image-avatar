@@ -1,0 +1,32 @@
+
+body{ 
+ 
+  .App {
+    text-align: center;
+    display:flex; 
+    flex-direction:column; 
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    .page-main {
+      flex: 1;
+      height: 30%;
+
+      background-color: black;
+      width: 90%;
+      margin: 1%;
+      
+
+    }
+    .page-footer {
+      bottom: 0;
+      position: fixed;
+      width: 100%;
+      background-color: aqua;
+    }
+  }
+}
+
+
+
+
